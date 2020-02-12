@@ -28,7 +28,9 @@ class StopsController < ApplicationController
 
     def destroy
         @stop = Stop.find(params[:id])
+        @temp = @stop
         @stop.delete
+        render :json => @temp
     end
 
     private 
