@@ -22,6 +22,9 @@ trip2 = Trip.create(name: "National Parks Roadtrip", location: "Utah", image: "h
 trip3 = Trip.create(name: "Eurotrip", location: "France", image: "https://dw8stlw9qt0iz.cloudfront.net/E9hlebgmZPcr95IXpbRw8jmg4iU=/750x450/filters:format(jpeg):quality(75)/curiosity-data.s3.amazonaws.com/images/content/thumbnail/standard/227f9565-dc33-4352-b588-b8e74ddd079f.png", category: "Vacation", date: "Spring 2020", notes: "Test Notes", user_id: drew.id)
 trip4 = Trip.create(name: "Caribbean Cruise", location: "Bahamas", image: "https://cdn.thecrazytourist.com/wp-content/uploads/2017/10/ccimage-shutterstock_439207315.jpg", category: "Cruise", date: "Winter 2020", notes: "Test Notes", user_id: drew.id)
 trip5 = Trip.create(name: "Antarctica Tour", location: "Antarctica", image: "https://oceanwide-4579.kxcdn.com/uploads/media-dynamic/cache/jpg_optimize/uploads/media/default/0001/40/thumb_39907_default_1600.jpeg", category: "Cruise", date: "Summer 2021", notes: "Test Notes", user_id: drew.id)
+trip8 = Trip.create(name: "New Zealand", location: "New Zealand", image: "https://cdn.cnn.com/cnnnext/dam/assets/180518102533-aurora-australis-new-zealand-full-169.jpg", category: "Vacation", date: "Spring 2022", notes: "Test Notes", user_id: drew.id)
+trip9 = Trip.create(name: "Asian Invasion", location: "Japan", image: "https://d36tnp772eyphs.cloudfront.net/blogs/1/2011/05/japan-1200x729.jpg", category: "Vacation", date: "Summer 2023", notes: "Test Notes", user_id: drew.id)
+trip10 = Trip.create(name: "Mars", location: "Mars", image: "https://api.time.com/wp-content/uploads/2015/09/the-martian-mars-in-movies.jpg?quality=85&w=1012&h=569&crop=1", category: "Vacation", date: "Never", notes: "Test Notes", user_id: drew.id)
 
 Item.create(name: "Drew's Shoes", quantity: 2, is_packed: false, trip_id: trip1.id)
 Item.create(name: "Nintendo Switch", quantity: 1, is_packed: true, trip_id: trip1.id)
